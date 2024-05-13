@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadoservicios\\usuarioservicios.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\usuarioservicios.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadoservicios\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadoservicios\\iusuarioservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\iusuarioservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\registrousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\registrousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadoservicios\\modelo\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\modelo\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\registrousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\registrousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\ahorcadoservicios\\usuarioservicios.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\usuarioservicios.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\loggin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\loggin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\loggin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\loggin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\ahorcadocliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\ahorcadocliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\menuprincipal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\menuprincipal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\registrousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\registrousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\loggin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\loggin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\ahorcadoservicios\\modelo\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\modelo\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\ahorcadoservicios\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|c:\\users\\emmanuel\\desktop\\ahorcado\\ahorcadocliente\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6B880F-1287-45CA-BDFD-6BCDEC1950D9}|AhorcadoCliente\\AhorcadoCliente.csproj|solutionrelative:ahorcadocliente\\menuprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\ahorcadoservicios\\iusuarioservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{967AA500-7F8A-47E6-907B-2BB76B600AB7}|AhorcadoServicios\\AhorcadoServicios.csproj|solutionrelative:ahorcadoservicios\\iusuarioservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +58,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AhorcadoCliente",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\AhorcadoCliente.csproj",
+              "RelativeDocumentMoniker": "AhorcadoCliente\\AhorcadoCliente.csproj",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\AhorcadoCliente.csproj",
+              "RelativeToolTip": "AhorcadoCliente\\AhorcadoCliente.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T00:38:41.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuPrincipal.xaml",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\MenuPrincipal.xaml",
+              "RelativeDocumentMoniker": "AhorcadoCliente\\MenuPrincipal.xaml",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\MenuPrincipal.xaml",
+              "RelativeToolTip": "AhorcadoCliente\\MenuPrincipal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T20:36:36.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
+              "RelativeToolTip": "AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:03:54.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioServicios.svc.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\UsuarioServicios.svc.cs",
+              "RelativeDocumentMoniker": "AhorcadoServicios\\UsuarioServicios.svc.cs",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\UsuarioServicios.svc.cs",
+              "RelativeToolTip": "AhorcadoServicios\\UsuarioServicios.svc.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:02:54.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Loggin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml.cs",
+              "RelativeDocumentMoniker": "AhorcadoCliente\\Loggin.xaml.cs",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml.cs",
+              "RelativeToolTip": "AhorcadoCliente\\Loggin.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwC8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:28:19.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroUsuario.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\RegistroUsuario.xaml.cs",
+              "RelativeDocumentMoniker": "AhorcadoCliente\\RegistroUsuario.xaml.cs",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\RegistroUsuario.xaml.cs",
+              "RelativeToolTip": "AhorcadoCliente\\RegistroUsuario.xaml.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAqwDsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:28:17.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Service1.svc.cs",
               "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Service1.svc.cs",
               "RelativeDocumentMoniker": "AhorcadoServicios\\Service1.svc.cs",
@@ -54,38 +147,23 @@
               "RelativeToolTip": "AhorcadoServicios\\Service1.svc.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:04:25.172Z",
+              "WhenOpened": "2024-05-10T10:04:25.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loggin.xaml",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml",
+              "RelativeDocumentMoniker": "AhorcadoCliente\\Loggin.xaml",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml",
+              "RelativeToolTip": "AhorcadoCliente\\Loggin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T08:35:55.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
-              "RelativeToolTip": "AhorcadoServicios\\Modelo\\DTO\\UsuarioDTO.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAADwv0wAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:03:54.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioServicios.svc.cs",
-              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\UsuarioServicios.svc.cs",
-              "RelativeDocumentMoniker": "AhorcadoServicios\\UsuarioServicios.svc.cs",
-              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\UsuarioServicios.svc.cs",
-              "RelativeToolTip": "AhorcadoServicios\\UsuarioServicios.svc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:02:54.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "IUsuarioServicios.cs",
               "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\IUsuarioServicios.cs",
               "RelativeDocumentMoniker": "AhorcadoServicios\\IUsuarioServicios.cs",
@@ -93,38 +171,11 @@
               "RelativeToolTip": "AhorcadoServicios\\IUsuarioServicios.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:01:57.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T10:01:57.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Loggin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml.cs",
-              "RelativeDocumentMoniker": "AhorcadoCliente\\Loggin.xaml.cs",
-              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml.cs",
-              "RelativeToolTip": "AhorcadoCliente\\Loggin.xaml.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwCcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T09:28:19.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistroUsuario.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\RegistroUsuario.xaml.cs",
-              "RelativeDocumentMoniker": "AhorcadoCliente\\RegistroUsuario.xaml.cs",
-              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\RegistroUsuario.xaml.cs",
-              "RelativeToolTip": "AhorcadoCliente\\RegistroUsuario.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAswB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T09:28:17.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RegistroUsuario.xaml",
               "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\RegistroUsuario.xaml",
               "RelativeDocumentMoniker": "AhorcadoCliente\\RegistroUsuario.xaml",
@@ -136,15 +187,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Loggin.xaml",
-              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml",
-              "RelativeDocumentMoniker": "AhorcadoCliente\\Loggin.xaml",
-              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\Loggin.xaml",
-              "RelativeToolTip": "AhorcadoCliente\\Loggin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-10T08:35:55.121Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Modelo\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "AhorcadoServicios\\Modelo\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoServicios\\Modelo\\ConexionBD.cs",
+              "RelativeToolTip": "AhorcadoServicios\\Modelo\\ConexionBD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:11:30.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuPrincipal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\MenuPrincipal.xaml.cs",
+              "RelativeDocumentMoniker": "AhorcadoCliente\\MenuPrincipal.xaml.cs",
+              "ToolTip": "C:\\Users\\Emmanuel\\Desktop\\Ahorcado\\AhorcadoCliente\\MenuPrincipal.xaml.cs",
+              "RelativeToolTip": "AhorcadoCliente\\MenuPrincipal.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:36:41.759Z"
             }
           ]
         }

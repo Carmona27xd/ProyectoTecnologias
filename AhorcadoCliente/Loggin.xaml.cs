@@ -46,6 +46,7 @@ namespace AhorcadoCliente
             {
                 string correo = txtCorreo.Text;
                 string password = txtPassword.Password;
+
                 if (!verificarFormulario(correo, password))
                 {
                     MessageBox.Show("Por favor ingresa los datos faltantes");

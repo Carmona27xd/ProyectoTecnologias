@@ -115,3 +115,5 @@ C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\Logg
 C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\Loggin.baml
 C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\RegistroUsuario.g.cs
 C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\RegistroUsuario.baml
+C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\MenuPrincipal.g.cs
+C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\MenuPrincipal.baml

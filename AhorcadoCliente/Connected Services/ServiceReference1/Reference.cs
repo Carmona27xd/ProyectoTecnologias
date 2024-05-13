@@ -230,6 +230,24 @@ namespace ServiceReference1
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/iniciarSesion", ReplyAction="http://tempuri.org/IUsuarioServicios/iniciarSesionResponse")]
         System.Threading.Tasks.Task<ServiceReference1.Usuario> iniciarSesionAsync(string correo, string password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/registrarUsuario", ReplyAction="http://tempuri.org/IUsuarioServicios/registrarUsuarioResponse")]
+        bool registrarUsuario(ServiceReference1.Usuario usuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/registrarUsuario", ReplyAction="http://tempuri.org/IUsuarioServicios/registrarUsuarioResponse")]
+        System.Threading.Tasks.Task<bool> registrarUsuarioAsync(ServiceReference1.Usuario usuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarCorreoExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarCorreoExistenteResponse")]
+        bool comprobarCorreoExistente(string correo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarCorreoExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarCorreoExistenteResponse")]
+        System.Threading.Tasks.Task<bool> comprobarCorreoExistenteAsync(string correo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarNicknameExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarNicknameExistenteResponse")]
+        bool comprobarNicknameExistente(string nickName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarNicknameExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarNicknameExistenteResponse")]
+        System.Threading.Tasks.Task<bool> comprobarNicknameExistenteAsync(string nickName);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
@@ -290,6 +308,36 @@ namespace ServiceReference1
         public System.Threading.Tasks.Task<ServiceReference1.Usuario> iniciarSesionAsync(string correo, string password)
         {
             return base.Channel.iniciarSesionAsync(correo, password);
+        }
+        
+        public bool registrarUsuario(ServiceReference1.Usuario usuario)
+        {
+            return base.Channel.registrarUsuario(usuario);
+        }
+        
+        public System.Threading.Tasks.Task<bool> registrarUsuarioAsync(ServiceReference1.Usuario usuario)
+        {
+            return base.Channel.registrarUsuarioAsync(usuario);
+        }
+        
+        public bool comprobarCorreoExistente(string correo)
+        {
+            return base.Channel.comprobarCorreoExistente(correo);
+        }
+        
+        public System.Threading.Tasks.Task<bool> comprobarCorreoExistenteAsync(string correo)
+        {
+            return base.Channel.comprobarCorreoExistenteAsync(correo);
+        }
+        
+        public bool comprobarNicknameExistente(string nickName)
+        {
+            return base.Channel.comprobarNicknameExistente(nickName);
+        }
+        
+        public System.Threading.Tasks.Task<bool> comprobarNicknameExistenteAsync(string nickName)
+        {
+            return base.Channel.comprobarNicknameExistenteAsync(nickName);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
