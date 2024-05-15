@@ -36,7 +36,7 @@ namespace ServiceReference1
         
         private int puntos_obtenidosField;
         
-        private int telefonoField;
+        private string telefonoField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string apellido_materno
@@ -192,7 +192,7 @@ namespace ServiceReference1
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int telefono
+        public string telefono
         {
             get
             {
@@ -200,7 +200,7 @@ namespace ServiceReference1
             }
             set
             {
-                if ((this.telefonoField.Equals(value) != true))
+                if ((object.ReferenceEquals(this.telefonoField, value) != true))
                 {
                     this.telefonoField = value;
                     this.RaisePropertyChanged("telefono");
@@ -248,6 +248,12 @@ namespace ServiceReference1
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarNicknameExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarNicknameExistenteResponse")]
         System.Threading.Tasks.Task<bool> comprobarNicknameExistenteAsync(string nickName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarNumeroExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarNumeroExistenteResponse")]
+        bool comprobarNumeroExistente(string numero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUsuarioServicios/comprobarNumeroExistente", ReplyAction="http://tempuri.org/IUsuarioServicios/comprobarNumeroExistenteResponse")]
+        System.Threading.Tasks.Task<bool> comprobarNumeroExistenteAsync(string numero);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
@@ -338,6 +344,16 @@ namespace ServiceReference1
         public System.Threading.Tasks.Task<bool> comprobarNicknameExistenteAsync(string nickName)
         {
             return base.Channel.comprobarNicknameExistenteAsync(nickName);
+        }
+        
+        public bool comprobarNumeroExistente(string numero)
+        {
+            return base.Channel.comprobarNumeroExistente(numero);
+        }
+        
+        public System.Threading.Tasks.Task<bool> comprobarNumeroExistenteAsync(string numero)
+        {
+            return base.Channel.comprobarNumeroExistenteAsync(numero);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

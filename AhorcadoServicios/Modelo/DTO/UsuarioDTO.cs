@@ -77,5 +77,21 @@ namespace AhorcadoServicios.Modelo.DTO
                 throw ex;
             }
         }
+
+        public static bool comprobarNumeroExistente(string telefono)
+        {
+            try
+            {
+                var conexion = ConexionBD.obtenerConexion();
+                conexion.Open();
+                DataContext dataContext = new DataContext(conexion);
+                bool telefonoExiste = dataContext.GetTable<Usuario>().Any(usuario => usuario.telefono == telefono);
+                return telefonoExiste;
+            }
+            catch(SqlException ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

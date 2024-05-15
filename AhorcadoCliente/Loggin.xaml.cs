@@ -1,4 +1,5 @@
-﻿using ServiceReference1;
+﻿using AhorcadoCliente.SingletonLoggin;
+using ServiceReference1;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -57,6 +58,13 @@ namespace AhorcadoCliente
                     if (usuarioLoggeado != null)
                     {
                         MessageBox.Show("Bienvenido al juego!");
+                        SessionManager.Instance.Login(usuarioLoggeado);
+
+                        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+                        Application.Current.MainWindow = ventanaPrincipal;
+
+                        ventanaPrincipal.Show();
+                        this.Close();
                     }
                     else
                     {

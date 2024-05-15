@@ -26,7 +26,7 @@ namespace AhorcadoServicios.Modelo.POCO
         [Column]
         public string fecha_nacimiento { get; set; }
         [Column]
-        public int telefono { get; set; }
+        public string telefono { get; set; }
         [Column]
         public int puntos_obtenidos { get; set; }
 

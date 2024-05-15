@@ -20,5 +20,7 @@ namespace AhorcadoServicios
         bool comprobarCorreoExistente(string correo);
         [OperationContract]
         bool comprobarNicknameExistente(string nickName);
+        [OperationContract]
+        bool comprobarNumeroExistente(string numero);
     }
 }

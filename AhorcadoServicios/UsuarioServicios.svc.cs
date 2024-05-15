@@ -23,6 +23,11 @@ namespace AhorcadoServicios
             return UsuarioDTO.comprobarNicknameExistente(nickName);
         }
 
+        public bool comprobarNumeroExistente(string numero)
+        {
+            return UsuarioDTO.comprobarNumeroExistente(numero);
+        }
+
         public Usuario iniciarSesion(string correo, string password)
         {
             return UsuarioDTO.iniciarSesion(correo, password);

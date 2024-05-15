@@ -12,19 +12,21 @@
         <Label Content="Nombres" HorizontalAlignment="Left" Margin="181,156,0,0" VerticalAlignment="Top"/>
         <Label Content="Apellido paterno" HorizontalAlignment="Left" Margin="162,280,0,0" VerticalAlignment="Top"/>
         <Label Content="Apellido materno" HorizontalAlignment="Left" Margin="160,217,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="dpFechaSeleccionada" HorizontalAlignment="Left" Margin="403,180,0,0" VerticalAlignment="Top" Width="170"/>
-        <Label Content="Fecha de nacimiento" HorizontalAlignment="Left" Margin="428,154,0,0" VerticalAlignment="Top"/>
-        <Label Content="Telefono" HorizontalAlignment="Left" Margin="460,100,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpFechaSeleccionada" HorizontalAlignment="Left" Margin="400,241,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label Content="Fecha de nacimiento" HorizontalAlignment="Left" Margin="425,215,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" Margin="457,161,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Margin="125,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <TextBox x:Name="txtNickname" HorizontalAlignment="Left" Margin="125,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <TextBox x:Name="txtNombres" HorizontalAlignment="Left" Margin="125,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <TextBox x:Name="txtApellidoMaterno" HorizontalAlignment="Left" Margin="125,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <TextBox x:Name="txtApellidoPaterno" HorizontalAlignment="Left" Margin="125,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
-        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Margin="403,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Margin="400,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
         <Button Content="Registrarse" HorizontalAlignment="Left" Margin="473,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_Registrarse"/>
         <Button Content="Cancelar" HorizontalAlignment="Left" Margin="612,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_Cancelar"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="458,45,0,0" VerticalAlignment="Top"/>
         <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="403,72,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label Content="Confirmar password" HorizontalAlignment="Left" Margin="430,95,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="txtPasswordConfirmacion" HorizontalAlignment="Left" Margin="403,126,0,0"  VerticalAlignment="Top" Width="170"/>
 
     </Grid>
 </Window>

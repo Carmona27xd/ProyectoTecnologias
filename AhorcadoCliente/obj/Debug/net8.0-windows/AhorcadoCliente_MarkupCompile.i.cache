@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\App.xaml
-32124760294
+3881950210
 
-9228992624
+10-1642741889
 212-237439240
-Loggin.xaml;MenuPrincipal.xaml;RegistroUsuario.xaml;
+Loggin.xaml;RegistroUsuario.xaml;VentanaPrincipal.xaml;
 
-False
+True
 

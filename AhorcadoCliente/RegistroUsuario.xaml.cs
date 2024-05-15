@@ -29,24 +29,21 @@ namespace AhorcadoCliente
 
         private async void Button_Registrarse(object sender, RoutedEventArgs e)
         {
-            if (validarTexto(txtNombres.Text) && validarCorreo(txtCorreo.Text) && validarNick(txtNickname.Text) && validarTexto(txtApellidoMaterno.Text)
-                && validarTexto(txtApellidoPaterno.Text) && validarPassword(txtPassword.Password))
+            if (!camposFaltantes())
             {
-                Console.WriteLine("entro el 1 if");
-
-                if (await usuarioServiciosClient.comprobarCorreoExistenteAsync(txtCorreo.Text))
+                if (validarCampos())
                 {
-                    MessageBox.Show("Este correo ya se encuetra registrado");
-                    Console.WriteLine("entro el 2 if");
-
-                }
-                else
-                {
-                    if (await usuarioServiciosClient.comprobarNicknameExistenteAsync(txtNickname.Text))
+                    if (await usuarioServiciosClient.comprobarCorreoExistenteAsync(txtCorreo.Text))
+                    {
+                        MessageBox.Show("Este correo ya se encuentra registrado"); 
+                    }
+                    else if (await usuarioServiciosClient.comprobarNicknameExistenteAsync(txtNickname.Text))
                     {
                         MessageBox.Show("Este nickname ya se encuentra registrado");
-                        Console.WriteLine("entro el 3 if");
-
+                    }
+                    else if (await usuarioServiciosClient.comprobarNumeroExistenteAsync(txtTelefono.Text))
+                    {
+                        MessageBox.Show("Este telefono ya se encuentra registrado");
                     }
                     else
                     {
@@ -58,20 +55,44 @@ namespace AhorcadoCliente
                             {
                                 MessageBox.Show("Usuario registrado con exito!");
                                 this.Close();
-                            }
+                                
+                            } 
                             else
                             {
-                                MessageBox.Show("No se pudo registrar el usuario");
+                                MessageBox.Show("No se pudo registrar el usuario!");
                             }
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show(ex.Message);
-
+                            MessageBox.Show(ex.ToString());
                         }
                     }
                 }
+            } 
+            else
+            {
+                MessageBox.Show("Por favor llena todos los campos!");
+            }
+        }
 
+        private bool validarCampos()
+        {
+            if (validarTexto(txtNombres.Text) && validarCorreo(txtCorreo.Text) && validarNick(txtNickname.Text) && validarTexto(txtApellidoMaterno.Text)
+                && validarTexto(txtApellidoPaterno.Text) && validarPassword(txtPassword.Password) && validarTelefono(txtTelefono.Text) &&
+                validarFecha(dpFechaSeleccionada.SelectedDate) && passwordsCoinciden())
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private void Button_Cancelar(object sender, RoutedEventArgs e)
+        {
+
+            MessageBoxResult result = MessageBox.Show("¿Deseas cancelar el registro?", "Confirmación", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+            if (result == MessageBoxResult.OK)
+            {
+                this.Close();
             }
         }
 
@@ -81,46 +102,85 @@ namespace AhorcadoCliente
 
             try
             {
-                nuevoUsuario.nombres = txtNombres.Text;
+                nuevoUsuario.nombres = txtNombres.Text.ToLower();
+                nuevoUsuario.apellido_paterno = txtApellidoPaterno.Text.ToLower();
+                nuevoUsuario.apellido_materno = txtApellidoMaterno.Text.ToLower();
                 nuevoUsuario.correo = txtCorreo.Text;
                 nuevoUsuario.nickname = txtNickname.Text;
                 nuevoUsuario.password = txtPassword.Password;
-                nuevoUsuario.apellido_paterno = txtApellidoPaterno.Text;
-                nuevoUsuario.apellido_materno = txtApellidoMaterno.Text;
                 nuevoUsuario.fecha_nacimiento = dpFechaSeleccionada.Text;
-
-                int telefonoInt = Int32.Parse(txtTelefono.Text);
-                nuevoUsuario.telefono = telefonoInt;
-
+                nuevoUsuario.telefono = txtTelefono.Text;
             }
-            catch (FormatException)
+            catch (Exception ex)
             {
-                MessageBox.Show("El telefono no es valido");
+                throw;
             }
 
             return nuevoUsuario;
         }
 
-        private void Button_Cancelar(object sender, RoutedEventArgs e)
+        private bool camposFaltantes()
         {
+            string correo = txtCorreo.Text.Trim();
+            string nickname = txtNickname.Text.Trim();
+            string nombres = txtNombres.Text.Trim();
+            string apellidoPaterno = txtApellidoPaterno.Text.Trim();   
+            string apellidoMaterno = txtApellidoMaterno.Text.Trim();
+            string password = txtPassword.Password.Trim();
+            string telefono = txtTelefono.Text.Trim();
+            string fechaNacimiento = dpFechaSeleccionada.Text.Trim();
 
-            MessageBoxResult result = MessageBox.Show("¿Deseas cancelar el registro?", "Confirmación", MessageBoxButton.OKCancel, MessageBoxImage.Question);
-            if (result == MessageBoxResult.OK) 
+            if (String.IsNullOrEmpty(correo) || String.IsNullOrEmpty(nickname) || String.IsNullOrEmpty(nombres) || String.IsNullOrEmpty(apellidoPaterno) || 
+                String.IsNullOrEmpty(apellidoMaterno) || String.IsNullOrEmpty(password) || String.IsNullOrEmpty(telefono) || string.IsNullOrEmpty(fechaNacimiento))
             {
-                this.Close();
+                return true;
             }
+
+            return false;
         }
+        private bool validarFecha(DateTime? fechaNacimiento)
+        {
+            if (fechaNacimiento == null)
+            {
+                MessageBox.Show("Por favor selecciona la fecha de tu nacimiento"); 
+                return false;
+            }
+
+            return true;
+        }
+
         private bool validarTexto(string nombre)
         {
-            if (Regex.IsMatch(nombre, @"^([a-zA-Z]+)(\s[a-zA-Z]+)*$"))
+            if (Regex.IsMatch(nombre, @"^[a-zA-Z\s]+$"))
             {
                 return true;
             }
             else
             {
-                MessageBox.Show("Nombre invalido");
+                MessageBox.Show("Nombre inválido o apellidos no válidos. Debe contener solo letras y espacios.");
                 return false;
             }
+        }
+
+        private bool validarTelefono(string telefono)
+        {
+
+            if (telefono.Length != 10 || String.IsNullOrEmpty(telefono))
+            {
+                MessageBox.Show("Por favor ingresa un telefono valido");
+                return false;
+            } 
+            
+            foreach (char c in telefono)
+            {
+                if (!char.IsDigit(c))
+                {
+                    MessageBox.Show("Por favor ingresa un telefono valido");
+                    txtTelefono.Clear();
+                    return false;
+                }
+            }
+            return true;
         }
 
         private bool validarCorreo(string correo)
@@ -152,18 +212,28 @@ namespace AhorcadoCliente
 
         public bool validarPassword(string contraseña)
         {
-            if (Regex.IsMatch(contraseña, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@$!%*?&#.$($)$-$_]{8,15}$"))
+            if (Regex.IsMatch(contraseña, @"^[a-zA-Z0-9]{8,15}$"))
             {
                 return true;
             }
             else
             {
-                MessageBox.Show("No se pudo registrar el usuario, la contraseña debe tener entre 8 y 15 caracteres, al menos un dígito, " +
-                    "al menos una minúscula y al menos una mayúscula, un caracter especial y no espacios en blanco.");
-
+                MessageBox.Show("La contraseña debe tener entre 8 y 15 caracteres y solo puede contener letras y números.");
                 return false;
             }
+        }
 
+        private bool passwordsCoinciden()
+        {
+            if (txtPassword.Password == txtPasswordConfirmacion.Password)
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Los password no coinciden!");
+                return false;
+            }
         }
 
     }
