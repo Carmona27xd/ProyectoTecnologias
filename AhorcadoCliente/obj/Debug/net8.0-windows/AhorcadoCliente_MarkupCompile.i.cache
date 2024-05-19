@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\obj\Debug\net8.0-windows\
+C:\Users\lecap\source\repos\ProyectoTecnologias\AhorcadoCliente\obj\Debug\net8.0-windows\
 AhorcadoCliente
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Emmanuel\Desktop\Ahorcado\AhorcadoCliente\App.xaml
-3881950210
+C:\Users\lecap\source\repos\ProyectoTecnologias\AhorcadoCliente\App.xaml
+6-1254570789
 
-10-1642741889
-212-237439240
-Loggin.xaml;RegistroUsuario.xaml;VentanaPrincipal.xaml;
+12-1153812015
+212-1741969018
+Loggin.xaml;ModificarUsuario.xaml;RegistroUsuario.xaml;Resources\Strings.en.xaml;Resources\Strings.xaml;VentanaPrincipal.xaml;
 
 True
 

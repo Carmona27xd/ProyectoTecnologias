@@ -28,6 +28,24 @@ namespace AhorcadoServicios.Modelo.DTO
             }
         }
 
+        public static Usuario obtenerDatosUsuario(int idUsuario)
+        {
+            try
+            {
+                var conexion = ConexionBD.obtenerConexion();
+                conexion.Open();
+                DataContext dataContext = new DataContext(conexion);
+                var usuario = (from us in dataContext.GetTable<Usuario>()
+                               where us.id_cuenta == idUsuario
+                               select us).FirstOrDefault();
+                return usuario;
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+
         public static bool registrarUsuario(Usuario usuario)
         {
             try

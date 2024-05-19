@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ModificarUsuario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegistroUsuario.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -18,7 +21,16 @@
     <Page Update="Loggin.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ModificarUsuario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="RegistroUsuario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Strings.en.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Strings.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="VentanaPrincipal.xaml">

@@ -1,0 +1,30 @@
+﻿<Window x:Class="AhorcadoCliente.ModificarUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AhorcadoCliente"
+        mc:Ignorable="d"
+        Title="ModificarUsuario" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="161,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox HorizontalAlignment="Left" Margin="162,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
+        <Label Content="Correo electronico" HorizontalAlignment="Left" Margin="192,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="NickName" HorizontalAlignment="Left" Margin="214,107,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombres" HorizontalAlignment="Left" Margin="220,167,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="162,193,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
+        <TextBox HorizontalAlignment="Left" Margin="162,256,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
+        <Label Content="Apellido paterno" HorizontalAlignment="Left" Margin="198,225,0,0" VerticalAlignment="Top"/>
+        <Label Content="Apellido paterno" HorizontalAlignment="Left" Margin="197,290,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,321,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
+        <TextBox HorizontalAlignment="Left" Margin="461,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="516,42,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="461,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
+        <Label Content="Confirmar password" HorizontalAlignment="Left" Margin="488,107,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" Margin="518,167,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="461,193,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170"/>
+        <Label Content="Fecha de nacimiento" HorizontalAlignment="Left" Margin="487,225,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="461,253,0,0" VerticalAlignment="Top" Width="170"/>
+
+    </Grid>
+</Window>

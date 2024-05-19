@@ -33,6 +33,11 @@ namespace AhorcadoServicios
             return UsuarioDTO.iniciarSesion(correo, password);
         }
 
+        public Usuario obtenerDatosUsuario(int idUsuario)
+        {
+            return UsuarioDTO.obtenerDatosUsuario(idUsuario);
+        }
+
         public bool registrarUsuario(Usuario usuario)
         {
             return UsuarioDTO.registrarUsuario(usuario);

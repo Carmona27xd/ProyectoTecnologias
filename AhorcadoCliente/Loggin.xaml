@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AhorcadoCliente"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Iniciar Sesion" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="txtCorreo" HorizontalAlignment="Center" Margin="0,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
-        <Label Content="Correo" HorizontalAlignment="Left" Margin="239,161,0,0" VerticalAlignment="Top"/>
+        <Label Content="{DynamicResource Correo}" HorizontalAlignment="Left" Margin="239,161,0,0" VerticalAlignment="Top"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="232,230,0,0" VerticalAlignment="Top"/>
         <Button Content="Iniciar sesion" HorizontalAlignment="Center" Margin="0,294,0,0" VerticalAlignment="Top" Width="96" Click="Button_IniciarSesion"/>
         <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" Width="160"/>
